@@ -47,6 +47,7 @@ namespace ExampleMod
 		public bool exampleLightPet;
 		public bool exampleShield;
 		public bool infinity;
+		public bool exampleExplosive;
 		public bool strongBeesUpgrade;
 		public bool manaHeart;
 		public int manaHeartCounter;
@@ -78,7 +79,8 @@ namespace ExampleMod
 			exampleLightPet = false;
 			exampleShield = false;
 			infinity = false;
-			strongBeesUpgrade = false;
+		    strongBeesUpgrade = false;
+			exampleExplosive = false;
 			if (!manaHeart) {
 				manaHeartCounter = 0;
 			}
