@@ -421,7 +421,7 @@ namespace ExampleMod
 				if (VolcanoCooldown > 0) {
 					VolcanoCooldown--;
 				}
-				if (VolcanoCooldown <= 0 && Main.rand.NextBool(VolcanoChance) && !GetInstance<ExampleConfigServer>().DisableVolcanoes) {
+				if (VolcanoCooldown <= 0 && Main.rand.NextBool(VolcanoChance) && !GetInstance<ExampleConfigServer>().DisableVolcanos) {
 					string key = "Mods.ExampleMod.VolcanoWarning";
 					Color messageColor = Color.Orange;
 					if (Main.netMode == 2) // Server
